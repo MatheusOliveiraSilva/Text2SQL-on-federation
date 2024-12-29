@@ -1,0 +1,15 @@
+unicode
+pandas
+numpy
+Unidecode
+pydantic==2.7.4
+python-dotenv
+langchain_openai
+langchain_community
+faiss-cpu
+langchain_core
+langgraph
+langchain
+tqdm
+oracledb
+langchain-pinecone

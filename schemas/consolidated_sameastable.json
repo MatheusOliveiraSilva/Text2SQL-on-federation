@@ -1,0 +1,954 @@
+[
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Religion",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "EthnicGroup",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Language",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrylocalname",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countryothername",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "encompasses",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "borders",
+    "Properties Destination": "Country1"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "borders",
+    "Properties Destination": "Country2"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Organization",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Economy",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "isMember",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Population",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Population",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_ECONOMY",
+    "Class Source": "Population",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "CountryLocalName",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "CountryLocalName",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "CountryLocalName",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Economy",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "CountryLocalName",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Population",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Religion",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Religion",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Religion",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Economy",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Religion",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Population",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Religion",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "EthnicGroup",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Language",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrylocalname",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countryothername",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "encompasses",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Province",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Airport",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country1",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "isMember",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Religion",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "EthnicGroup",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Language",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrylocalname",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countryothername",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "encompasses",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Province",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Airport",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "borders",
+    "Properties Source": "Country2",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "isMember",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Religion",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "EthnicGroup",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Language",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Economy",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "encompasses",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Population",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Citypops",
+    "Properties Source": "City",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Citypops",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "Citypops",
+    "Properties Source": "Province",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "name",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provincelocalname",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provincelocalname",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "name",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provinceothername",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provinceothername",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "population",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provpops",
+    "Properties Destination": "Population"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "name",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provpops",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Province",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provpops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "ProvinceLocalName",
+    "Properties Source": "province",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Province",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "ProvinceLocalName",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_SOCIAL",
+    "Class Source": "ProvinceLocalName",
+    "Properties Source": "localname",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provincelocalname",
+    "Properties Destination": "localname"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Religion",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "EthnicGroup",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Language",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrylocalname",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countryothername",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Province",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Airport",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Mountain",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Desert",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Island",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_River",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Sea",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Lake",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Organization",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Organization",
+    "Properties Destination": "Abbreviation"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Economy",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_POLITICS",
+    "Class Source": "isMember",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Population",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Sea",
+    "Properties Source": "name",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Sea",
+    "Properties Destination": "Sea"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "RiverThrough",
+    "Properties Source": "river",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_River",
+    "Properties Destination": "River"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "RiverThrough",
+    "Properties Source": "lake",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Lake",
+    "Properties Destination": "Lake"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "Island",
+    "Properties Source": "name",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Island",
+    "Properties Destination": "Island"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Religion",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "EthnicGroup",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Language",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrylocalname",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countryothername",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Countrypops",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Politics",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "Organization",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_POLITICS",
+    "Class Destination": "isMember",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Economy",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Country",
+    "Endpoint Destination": "MONDIAL_ECONOMY",
+    "Class Destination": "Population",
+    "Properties Destination": "Country"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Province",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provincelocalname",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Province",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provinceothername",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "geo_Mountain",
+    "Properties Source": "Province",
+    "Endpoint Destination": "MONDIAL_SOCIAL",
+    "Class Destination": "Provpops",
+    "Properties Destination": "Province"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "located",
+    "Properties Source": "city",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "City",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "located",
+    "Properties Source": "country",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Country",
+    "Properties Destination": "Code"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "located",
+    "Properties Source": "province",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Province",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "located",
+    "Properties Source": "river",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "River",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "located",
+    "Properties Source": "lake",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Lake",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "located",
+    "Properties Source": "sea",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "Sea",
+    "Properties Destination": "Name"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "islandIn",
+    "Properties Source": "island",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Island",
+    "Properties Destination": "Island"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "islandIn",
+    "Properties Source": "sea",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Sea",
+    "Properties Destination": "Sea"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "islandIn",
+    "Properties Source": "lake",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Lake",
+    "Properties Destination": "Lake"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "islandIn",
+    "Properties Source": "river",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_River",
+    "Properties Destination": "River"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "RiverOnIsland",
+    "Properties Source": "river",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_River",
+    "Properties Destination": "River"
+  },
+  {
+    "Endpoint Source": "MONDIAL_GEO",
+    "Class Source": "RiverOnIsland",
+    "Properties Source": "island",
+    "Endpoint Destination": "MONDIAL_GEO",
+    "Class Destination": "geo_Island",
+    "Properties Destination": "Island"
+  }
+]
