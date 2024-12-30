@@ -22,7 +22,9 @@ builder.add_edge("tools", "assistant")
 graph = builder.compile()
 
 if __name__ == "__main__":
-    messages = [HumanMessage(content="Retrieve the GDP and religion of countries in South America?")]
+    messages = [HumanMessage(
+        content="Quais aeroportos estão localizados em países da América do Norte e qual o tipo de governo desses países?")
+    ]
     result = graph.invoke({"messages": messages})
 
     for message in result["messages"]:
