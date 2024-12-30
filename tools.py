@@ -7,6 +7,7 @@ import langchain
 import pandas as pd
 from pathlib import Path
 from dotenv import load_dotenv
+from langchain_utils import get_llm
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
@@ -16,7 +17,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from schemas.mondial_federated_schema import MONDIAL_ECONOMY, MONDIAL_GEO, MONDIAL_POlITICS, MONDIAL_SOCIAL, MONDIAL_FULL_SCHEMA
 
 load_dotenv()
-llm = ChatOpenAI(temperature=0, model="gpt-4o")
+llm = get_llm()
 
 def retrieve_relevant_sameastable_relations(relevant_tables: list) -> str:
     """

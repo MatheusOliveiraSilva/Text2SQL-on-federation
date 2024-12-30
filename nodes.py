@@ -2,20 +2,21 @@ import re
 import os
 import sys
 import json
+import tools
+import prompts
 import langchain
 import pandas as pd
 from pathlib import Path
 from dotenv import load_dotenv
+from langchain_utils import get_llm
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 from langgraph.graph import MessagesState
 from langchain_core.messages import SystemMessage
 from schemas.mondial_federated_schema import MONDIAL_FULL_SCHEMA
-import tools
-import prompts
 
 load_dotenv()
-llm = ChatOpenAI(temperature=0, model="gpt-4o")
+llm = get_llm()
 
 def assistant(state: MessagesState):
     """
