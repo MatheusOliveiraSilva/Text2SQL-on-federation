@@ -112,7 +112,7 @@ Answer ALL AND ONLY in JSON with the following structure:
 2. Any conditions that rely on data from other schemas should be resolved in the integration phase, not in the subqueries.
 3. Use the examples above as a guide for structuring your output.
 
-Query:
+Answer ALL AND ONLY IN JSON format, here is the query:
 {query}
 """
 
@@ -168,8 +168,9 @@ You are an intelligent chatbot agent that assists users with database-related qu
 3. Use tools sequentially to process the database-related query:
    1. `get_relevant_tables`: Identify the tables relevant to the user's question.
    2. `get_subqueries`: Generate SQL subqueries for the relevant tables.
-   3. `join_subqueries`: Combine the subqueries into a final query.
-
+   3. After you come back from `get_subqueries` you may say to user something like "We need to do query over multiple databases to answer your question. Like: ..." and use some information as schema name, tables how they are related to each other. In natural language, DO NOT use JSONS and SQL to talk to the user.
+   4. `join_subqueries`: Combine the subqueries into a final query just if user agreed with step 3. politics that you setup.
+   
 # Attention:
 - ONLY use the tools in the given order.
 - Do NOT attempt to write SQL queries yourself; this is the tool's responsibility.
