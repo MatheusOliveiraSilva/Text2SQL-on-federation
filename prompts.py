@@ -150,7 +150,7 @@ The database schema is provided below:
 The user's question is: {question}
 
 YOU ONLY CAN ANSWER 2 TYPES OF ANSWERS:
-1- A list of tables that are relevant to the user's question.
+1- A list of tables that are relevant to the user's question. It's important to retrieve all the tables that are relevant, not just the ones related to entities in the question, but also tables that are needed in possible joins to answer the question.
 2- A question about the user's question, to solve any ambiguities. It always need to be the type of answers if in user question have any entity that isn't in the schema explicity.
 
 YOUR ANSWER IS 1. MUST BE A LIST OF TABLES, SEPARATED BY COMMAS.

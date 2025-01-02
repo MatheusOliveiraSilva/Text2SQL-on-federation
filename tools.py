@@ -71,7 +71,7 @@ def get_subqueries(query: str, relevant_tables: list) -> str:
     Generate subqueries for each federated schema based on the user's query.
     Args:
         query (str): The user's query.
-        relevant_tables (list): The SameAsTabgle relationships between tables across schemas.
+        relevant_tables (list): The SameAsTable relationships between tables across schemas.
     """
 
     prompt = prompts.SUBQUERY_PROMPT.format(
