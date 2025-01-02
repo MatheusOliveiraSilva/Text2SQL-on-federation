@@ -1,8 +1,11 @@
 from langgraph.prebuilt import tools_condition, ToolNode
 from langgraph.graph import START, StateGraph, MessagesState
 from langchain_core.messages import HumanMessage
-from nodes import assistant
-import tools as t
+from agent_structure.nodes import assistant
+import agent_structure.tools as t
+from langgraph.checkpoint.memory import MemorySaver
+
+memory = MemorySaver()
 
 tools = [
     t.get_relevant_tables,
@@ -19,7 +22,7 @@ builder.add_conditional_edges("assistant", tools_condition)
 builder.add_edge("tools", "assistant")
 
 # Compile graph
-graph = builder.compile()
+graph = builder.compile(checkpointer=memory)
 
 if __name__ == "__main__":
     messages = [HumanMessage(
@@ -27,6 +30,4 @@ if __name__ == "__main__":
     ]
     result = graph.invoke({"messages": messages})
 
-    for message in result["messages"]:
-        print(message.content)
-        print("-" * 50)
+    print(result)

@@ -8,7 +8,7 @@ from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from langchain.chains import LLMChain
 import time
 import faiss
-import gptconfig as gptconfig
+import llm_utils.gptconfig as gptconfig
 
 def get_llm(temperature=0, max_tokens=400, n=1, model_kwargs={}, model=gptconfig.MODEL_4O):
     llm = AzureChatOpenAI(

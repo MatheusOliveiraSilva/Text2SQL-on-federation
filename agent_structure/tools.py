@@ -2,12 +2,12 @@ import re
 import os
 import sys
 import json
-import prompts
+import agent_structure.prompts as prompts
 import langchain
 import pandas as pd
 from pathlib import Path
 from dotenv import load_dotenv
-from langchain_utils import get_llm
+from llm_utils.langchain_utils import get_llm
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
@@ -26,7 +26,10 @@ def retrieve_relevant_sameastable_relations(relevant_tables: list) -> str:
         relevant_tables (list): A list of relevant table names.
     """
 
-    SameAsTable_path = "schemas/consolidated_sameastable.json"
+    # get path based on environment
+    SameAsTable_path = os.getenv("SAMEASTABLE_PATH")
+
+    # SameAsTable_path = "schemas/consolidated_sameastable.json"
 
     with open(SameAsTable_path) as f:
         same_as_table_json = json.load(f)
