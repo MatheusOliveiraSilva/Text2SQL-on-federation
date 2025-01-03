@@ -22,7 +22,7 @@ builder.add_conditional_edges("assistant", tools_condition)
 builder.add_edge("tools", "assistant")
 
 # Compile graph
-graph = builder.compile(checkpointer=memory)
+graph = builder.compile()
 
 if __name__ == "__main__":
     messages = [HumanMessage(
@@ -30,4 +30,5 @@ if __name__ == "__main__":
     ]
     result = graph.invoke({"messages": messages})
 
-    print(result)
+    for message in result["messages"]:
+        print(message.content)

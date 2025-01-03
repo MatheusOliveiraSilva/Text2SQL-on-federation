@@ -13,7 +13,7 @@ from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 from langgraph.graph import MessagesState
 from langchain_core.messages import SystemMessage
-from schemas.mondial_federated_schema import MONDIAL_FULL_SCHEMA
+from agent_structure.schemas.mondial_federated_schema import MONDIAL_FULL_SCHEMA
 
 load_dotenv()
 llm = get_llm()

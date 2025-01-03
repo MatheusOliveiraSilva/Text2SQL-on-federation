@@ -14,7 +14,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langgraph.prebuilt import tools_condition, ToolNode
 from langgraph.graph import START, StateGraph, MessagesState
 from langchain_core.messages import SystemMessage, HumanMessage
-from schemas.mondial_federated_schema import MONDIAL_ECONOMY, MONDIAL_GEO, MONDIAL_POlITICS, MONDIAL_SOCIAL, MONDIAL_FULL_SCHEMA
+from agent_structure.schemas.mondial_federated_schema import MONDIAL_ECONOMY, MONDIAL_GEO, MONDIAL_POlITICS, MONDIAL_SOCIAL, MONDIAL_FULL_SCHEMA
 
 load_dotenv()
 llm = get_llm()
