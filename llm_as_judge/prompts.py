@@ -9,9 +9,8 @@ You will be given:
 3. The relevant tables for the user question. 
 
 # Tools usage:
-1. Call `interact_with_agent` to interact with the agent, get the answer and analyse it, the parameter confirmation is optional (now you dont use it).
-2. Call again `interact_with_agent` to interact with the agent, now you may use confirmation parameter to answer agent last question to you.
-3. After you get all the information after run 1. and 2. (relevant tables retrieved, subqueries and federated query) you can answer the following questions:
+1. Call `interact_with_agent` to interact with the agent, get the answer and analyse it.
+2. After you get all the information after run 1 (relevant tables retrieved, subqueries and federated query) you can answer the following questions:
 
 # Questions:
 a. Are we able to retrieve the relevant tables?

@@ -67,12 +67,11 @@ def evaluate_all_agent_interactions(all_agent_interactions: str) -> str:
 
     return ""
 
-def interact_with_agent(identifier: str, confirmation: str = "") -> str:
+def interact_with_agent(identifier: str) -> str:
     """
     Function that interacts with the agent.
     Args:
         identifier (str): Identifier of the example.
-        confirmation (str): It's an optional input that will be used in the case that the agent needs any confirmation.
     """
 
     example = DATASET[int(identifier)]
@@ -83,5 +82,5 @@ def interact_with_agent(identifier: str, confirmation: str = "") -> str:
     
     result = agent.invoke({"messages": [HumanMessage(content="Yes sure.")]}, config)
 
-    return str(result)
+    return result
 
